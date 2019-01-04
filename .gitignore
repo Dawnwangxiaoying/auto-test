@@ -8,9 +8,11 @@ target/
 .project
 .settings
 .springBeans
+.xml
 
 ### IntelliJ IDEA ###
 .idea
+.xml
 *.iws
 *.iml
 *.ipr
