@@ -1,0 +1,167 @@
+  bash arg: -p
+  bash arg: cn.wps.moffice_eng
+  bash arg: -s
+  bash arg: 100
+  bash arg: --ignore-crashes
+  bash arg: --ignore-timeouts
+  bash arg: --monitor-native-crashes
+  bash arg: -v
+  bash arg: -v
+  bash arg: 100
+:Monkey: seed=100 count=100
+:AllowPackage: cn.wps.moffice_eng
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   + Using main activity cn.wps.moffice.documentmanager.PreStartActivity (from package cn.wps.moffice_eng)
+// Selecting main activities from category android.intent.category.MONKEY
+// Seeded: 100
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=cn.wps.moffice_eng/cn.wps.moffice.documentmanager.PreStartActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=cn.wps.moffice_eng/cn.wps.moffice.documentmanager.PreStartActivity } in package cn.wps.moffice_eng
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=cn.wps.moffice_eng/cn.wps.moffice.documentmanager.PreStartActivity } in package cn.wps.moffice_eng
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(236.0,1448.0)
+:Sending Touch (ACTION_UP): 0:(239.6952,1450.5131)
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(817.0,672.0)
+:Sending Touch (ACTION_MOVE): 0:(806.7215,674.58936)
+:Sending Touch (ACTION_MOVE): 0:(796.983,678.33875)
+:Sending Touch (ACTION_MOVE): 0:(777.5646,682.8886)
+:Sending Touch (ACTION_MOVE): 0:(760.08307,683.68207)
+:Sending Touch (ACTION_MOVE): 0:(753.2682,686.4697)
+:Sending Touch (ACTION_MOVE): 0:(744.06885,686.58435)
+:Sending Touch (ACTION_MOVE): 0:(732.9116,692.0274)
+:Sending Touch (ACTION_MOVE): 0:(720.2788,693.7811)
+:Sending Touch (ACTION_UP): 0:(704.8928,701.56537)
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(268.0,1826.0)
+:Sending Touch (ACTION_UP): 0:(264.17523,1823.462)
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 0 milliseconds
+    // Rejecting start of Intent { cmp=com.android.systemui/.recents.RecentsActivity } in package com.android.systemui
+:Sending Touch (ACTION_DOWN): 0:(336.0,359.0)
+:Sending Touch (ACTION_MOVE): 0:(340.20886,357.3222)
+:Sending Touch (ACTION_MOVE): 0:(342.71722,353.41183)
+:Sending Touch (ACTION_MOVE): 0:(346.9966,350.894)
+:Sending Touch (ACTION_MOVE): 0:(355.95114,348.16638)
+:Sending Touch (ACTION_MOVE): 0:(358.57358,344.2732)
+:Sending Touch (ACTION_UP): 0:(367.2303,344.00336)
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 192    // KEYCODE_BUTTON_5
+:Sending Key (ACTION_UP): 192    // KEYCODE_BUTTON_5
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 0 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(546.0,1255.0)
+:Sending Touch (ACTION_UP): 0:(538.475,1257.1292)
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(788.0,1096.0)
+:Sending Touch (ACTION_UP): 0:(785.90125,1099.7758)
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(440.0,1768.0)
+:Sending Touch (ACTION_MOVE): 0:(443.97714,1764.4805)
+:Sending Touch (ACTION_MOVE): 0:(452.77997,1757.93)
+:Sending Touch (ACTION_MOVE): 0:(454.22604,1757.2743)
+:Sending Touch (ACTION_MOVE): 0:(463.5927,1757.0007)
+:Sending Touch (ACTION_MOVE): 0:(472.0165,1752.8053)
+:Sending Touch (ACTION_MOVE): 0:(475.4624,1751.4882)
+:Sending Touch (ACTION_MOVE): 0:(482.6616,1745.5962)
+:Sending Touch (ACTION_UP): 0:(489.12665,1742.0593)
+Sleeping for 0 milliseconds
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 66    // KEYCODE_ENTER
+:Sending Key (ACTION_UP): 66    // KEYCODE_ENTER
+Sleeping for 0 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.camera/.Camera } in package com.android.camera
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.camera/.Camera } in package com.android.camera
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 0 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+Events injected: 100
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=0 trackballs=0 flips=1 rotations=0
+## Network stats: elapsed time=507ms (0ms mobile, 0ms wifi, 507ms not connected)
+// Monkey finished
