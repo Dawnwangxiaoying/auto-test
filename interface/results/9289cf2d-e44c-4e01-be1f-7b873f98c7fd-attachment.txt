@@ -1,0 +1,2 @@
+logUtil.py                  48 INFO     ['{"attach":"哈哈","roomid":"', 'roomid', '","msgType":1,"ext":"{\\"role\\":0}","msgId":"', 'msgId', '"}'] 获取data错误
+        异常信息为：None

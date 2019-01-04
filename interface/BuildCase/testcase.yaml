@@ -1,0 +1,32 @@
+serachByCreateUserId:
+  randomtoken: False #如果需要调用多个账号改成True
+  url: ilaw/api/v2/taskflow/member/serachByCreateUserId
+  endurl: ''
+  querypara: ['']
+  #如果需要调用文本读取大量参数用 ReadTxt("文件地址")
+  #如果没有随机参数用['']
+  #如果少量随机参数写在数组里面      例：[1,2,4,5,6]
+  method: POST
+  data: {"name":"35345345","type":0,"valid":1,"state":0,"attendees":["A0C12DCC12B711E7843370106FAECE2E"]}
+
+serachByCreateUser:
+  randomtoken: False #如果需要调用多个账号改成True
+  url: ilaw/api/v2/taskflow/member/serachByCreateUserId
+  endurl: ''
+  querypara: ReadTxt('querypara.txt')
+  #如果需要调用文本读取大量参数用 ReadTxt
+  #如果没有随机参数用['']
+  #如果少量随机参数写在数组里面      例：[1,2,4,5,6]
+  method: GET
+  data:
+serachByCreateUsereee:
+  randomtoken: True #如果需要调用多个账号改成True
+  accountpath: 'available.txt' #存储账号信息的txt文本，一行一个，不用写密码
+  url: ilaw/api/v2/taskflow/member/serachByCreateUserId
+  endurl: ''
+  querypara: [1,2]
+  #如果需要调用文本读取大量参数用 ReadTxt
+  #如果没有随机参数用['']
+  #如果少量随机参数写在数组里面      例：[1,2,4,5,6]
+  method: PUT
+  data:

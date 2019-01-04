@@ -1,0 +1,3 @@
+https://testadminschool.icourt.cc/live/api/v1/course/list
+{"orderBy":null,"orderByType":null,"pageIndex":1,"pageSize":10,"states":[1,2,3,4,5],"title":null,"pmsTypes":[]}
+

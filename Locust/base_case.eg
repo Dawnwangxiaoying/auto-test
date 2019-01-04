@@ -1,0 +1,40 @@
+from locust import HttpLocust, TaskSet,task
+import random
+import requests
+host = "https://pre.alphalawyer.cn/"
+account = ["duoduo@nobug.com"]
+def ReadTxt(path = "available.txt"):
+    paras = []
+    with open(path, 'r') as f:
+        for para in f.readlines():
+            a = para.strip()
+            paras.append(a[0])
+        return paras
+account = ReadTxt(accountpath)
+def login(account):
+    tokens = []
+    for username in account:
+        url = host + "/user/api/v1/login/password"
+        data = {"email": username, "password": "123456"}
+        info = requests.post(url, json=data)
+        token = info.json()["data"]["jwtTokenDTO"]["token"]
+        tokens.append(token)
+    return tokens
+tokens = login(account)
+class UserBehavior(TaskSet):
+    @task(1)
+    def test_name(l):
+        headers = {"token":random.choice(tokens)}
+        url = case["url"] + random.choice(case['querypara'])+case["endurl"]
+        with l.client.get(url, headers=headers, catch_response=True) as response:
+        with l.client.post(url,json=case["data"], headers=headers, catch_response=True) as response:
+        with l.client.put(url,json=case["data"], headers=headers, catch_response=True) as response:
+        with l.client.delete(url,json=case["data"], headers=headers, catch_response=True) as response:
+
+            if "成功" in response.text:
+                response.success()
+            else:
+                response.failure("断言失败")
+class WebsiteUser(HttpLocust):
+    task_set = UserBehavior
+    host = "https://pre.alphalawyer.cn/"

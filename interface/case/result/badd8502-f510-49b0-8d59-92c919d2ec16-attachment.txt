@@ -1,0 +1,1 @@
+{"resultCode":"1","resultMess":"查询成功","data":[{"pkId":"8BBBDAA7960011E8AAE67CD30AEB120C","name":"test自动化团队版","groups":null,"userId":"1","isValid":"1","crtTime":1533178972000,"updTime":1533178972000,"briefing":"test自动化团队版","logo":null,"level":null,"type":"integration","limitedNum":30,"remark":"","province":"北京","city":"北京","area":null,"officeType":1,"environment":1}]}

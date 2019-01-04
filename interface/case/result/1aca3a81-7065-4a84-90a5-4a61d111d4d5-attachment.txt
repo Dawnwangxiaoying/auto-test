@@ -1,0 +1,2 @@
+https://test.alphalawyer.cn/admin/api/v1/maxims/view
+

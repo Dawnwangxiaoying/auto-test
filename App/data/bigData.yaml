@@ -1,0 +1,39 @@
+工作台:
+  by: id
+  path: tab_find_ctv
+  action: click
+
+Alpha大数据:
+  by: xpath
+  path: //android.widget.TextView[@text="Alpha 大数据"]
+  action: click
+
+点击Alpha案例库搜索框:
+  by: xpath
+  path: //android.widget.TextView[@text="在 Alpha 案例库中检索"]
+  action: click
+
+Alpha案例库搜索:
+  by: class_name
+  path: android.widget.EditText
+  action: send_keys
+  send_content: 合同
+  pressKeyCode: 66
+  switch_context: True
+外部数据库:
+  by: xpath
+  path: //android.widget.TextView[@text="外部数据库"]
+  action: click
+
+外部数据库搜索:
+  by: id
+  path: search_edit
+  action: send_keys
+  send_content: 合同
+  pressKeyCode: 66
+  switch_context: True
+百度一下:
+  by: xpath
+  path: //*[@id="page-hd"]/div/div[3]/div[1]/div[1]/div/a[4]/span
+  actionType: js
+  action: click

@@ -1,0 +1,2 @@
+https://testadminschool.icourt.cc/live/api/v1/course/add
+{"title":"接口测试-评论","type":1,"producterName":"杨兰丽","lecturerName":"杨文学","lecturerIds":["5BD6ED8BEF6311E7A23000163E0691A5"],"assistantName":"","assistantIds":[],"info":"接口测试接口测试自动化","cover":"https://testres.alphalawyer.cn/icourt-live/20181119/c004efe9cc664e4c8502d4da4edc9b82","thumbnail":"https://testres.alphalawyer.cn/icourt-live/20181119/193a00e4bc8841dfa9e959ff22378228","expectStartTime":1542352680000,"expectTime":6000000,"pmsType":1,"achievementId":"","posterTemplateId":""}

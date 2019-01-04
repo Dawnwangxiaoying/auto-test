@@ -1,0 +1,20 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1539533433395" stop="1539533451525">
+  <name>App.test_case.login.test_login</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1539533433395" status="passed" stop="1539533451525">
+      <name>TestClass.test_login_pwd</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="登录"/>
+        <label name="story" value="账号密码登录"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="66530-MainThread"/>
+        <label name="host" value="Mr-Wangs-MacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

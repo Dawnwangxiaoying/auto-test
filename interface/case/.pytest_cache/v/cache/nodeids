@@ -1,0 +1,17 @@
+[
+  "test_interface.py::TestClass::test_a[case0]",
+  "test_interface.py::TestClass::test_a[case1]",
+  "test_interface.py::TestClass::test_a[case2]",
+  "test_interface.py::TestClass::test_a[case3]",
+  "test_interface.py::TestClass::test_a[case4]",
+  "test_interface.py::TestClass::test_a[case5]",
+  "test_interface.py::TestClass::test_a[case6]",
+  "test_interface.py::TestClass::test_a[case7]",
+  "test_interface.py::TestClass::test_a[case8]",
+  "test_interface.py::TestClass::test_a[case9]",
+  "test_interface.py::TestClass::test_a[case10]",
+  "test_interface.py::TestClass::test_a[case11]",
+  "test_interface.py::TestClass::test_a[case12]",
+  "test_interface.py::TestClass::test_a[case13]",
+  "test_interface.py::TestClass::test_a[case14]"
+]

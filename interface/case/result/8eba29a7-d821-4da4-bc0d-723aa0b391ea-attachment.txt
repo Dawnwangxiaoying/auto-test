@@ -1,0 +1,2 @@
+https://test.alphalawyer.cn/ilaw//api/v2/release/isAdmin
+

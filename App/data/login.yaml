@@ -1,0 +1,23 @@
+
+使用账号密码登录:
+  by: id
+  path: actionLoginWithPwd
+  action: click
+邮箱:
+  by: id
+  path: et_mail
+  action: send_keys
+  send_content: wenxue@icourt.cc
+
+密码:
+  by: id
+  path: et_pwd
+  action: send_keys
+  send_content: 123456
+
+登录按钮:
+  by: id
+  path: pwd_login_btn
+  action: click
+
+wechat:

@@ -1,0 +1,1 @@
+2018-11-16 12:55:13 [INFO]::Debug: {"resultCode":"1","resultMess":"获得token成功","authToken":"78e55c69262435267caf88b5cf8046c23063d242","seaFileRepoId":null}

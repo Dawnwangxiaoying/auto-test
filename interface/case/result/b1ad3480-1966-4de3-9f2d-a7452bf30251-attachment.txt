@@ -1,0 +1,18 @@
+logUtil.py                  48 INFO     {
+	"data":{
+		"accid":"8bbef54d960011e8aae67cd30aeb120c",
+		"email":"interface@test.com",
+		"name":"修改一个人",
+		"name_character":"xiugaiyigeren",
+		"office_id":"8BBBDAA7960011E8AAE67CD30AEB120C",
+		"phone":"13627272727",
+		"pic":"",
+		"status":"1",
+		"title":null,
+		"token":"e44dabb66363a804f3f176c83f92b9dd",
+		"type":0,
+		"user_id":"8BBEF54D960011E8AAE67CD30AEB120C"
+	},
+	"isSuccess":true,
+	"resultMsg":"执行成功！"
+}

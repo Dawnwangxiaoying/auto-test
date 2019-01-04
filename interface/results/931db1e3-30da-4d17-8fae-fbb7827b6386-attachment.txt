@@ -1,0 +1,2 @@
+https://testschool.icourt.cc/live/api/v1/im/chatroom/savemsg
+['{"attach":"哈哈","roomid":"', 'roomid', '","msgType":1,"ext":"{\\"role\\":0}","msgId":"', 'msgId', '"}']

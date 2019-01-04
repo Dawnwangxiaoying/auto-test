@@ -1,0 +1,1 @@
+logUtil.py                  48 INFO     {"resultCode":"1","resultMess":"获得token成功","authToken":"78e55c69262435267caf88b5cf8046c23063d242","seaFileRepoId":null}

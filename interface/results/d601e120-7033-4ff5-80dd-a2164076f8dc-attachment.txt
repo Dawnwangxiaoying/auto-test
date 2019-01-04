@@ -1,0 +1,2 @@
+https://testschool.icourt.cc/live/api/v1/im/chatroom/sendgift
+['{"attach":"{\\"type\\":\\"gift\\",\\"id\\":\\"i011\\"}","roomid":"', 'roomid', '","msgType":100,"ext":"{\\"role\\":0}","consumeType":1,"consumeValue":10}']

@@ -1,0 +1,11 @@
+{
+  "test_case/task/test_task.py::TestClass::()::test_login_pwd": true,
+  "test_case/test_cache.py::cache::test_cache": true,
+  "test_case/test_login.py::TestClass::()::test_login_pwd": true,
+  "test_case/test_login.py::login::test_login_pwd": true,
+  "test_case/test_login_pwd.py::login::test_login_pwd": true,
+  "test_case/test_logout.py::logout::test_logout": true,
+  "test_case/test_personal_info.py::name::test_edit_name": true,
+  "test_case/test_timing_add.py::timing::test_timing_add": true,
+  "test_case/test_timing_list.py::timing::test_timing_list": true
+}

@@ -1,0 +1,2 @@
+https://testschool.icourt.cc/live/api/v1/course/signUp
+

@@ -1,0 +1,3 @@
+dict_keys(['today', 'token', 'officeid', 'userid', 'now', 'randomint', 'pageIndex', 'pageSize', 'effectRepeats', 'msgId', 'cover', 'thumbnail', 'courseId'])
+https://testadminschool.icourt.cc/live/api/v1/course/0dfba9e2ebdd11e8a6ac7cd30aeb153e/create/channel
+{}

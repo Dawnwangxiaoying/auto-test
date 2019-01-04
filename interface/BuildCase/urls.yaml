@@ -1,0 +1,20 @@
+urls:
+  "taskserver": 'http://192.168.255.105:9193/taskserver/v2/api-docs'
+  'report': "http://192.168.255.107:8087/report/v2/api-docs"
+  "ilaw": "http://192.168.255.105:8080/ilaw/v2/api-docs"
+  "judgement": "http://192.168.255.107:9093/judgement-search/v2/api-docs"
+  "matter": "http://192.168.255.107:9096/matterserver/v2/api-docs"
+  'permission': "http://192.168.255.107:8080/permission/v2/api-docs"
+  "radar": "http://192.168.255.106:10080/radar/v2/api-docs"
+  "word": "http://192.168.255.107:10090/officeword/v2/api-docs"
+  "appro": "http://192.168.255.108:8084/appro/v2/api-docs"
+  "book": "http://192.168.255.105:9091/book/v2/api-docs"
+  "cart": "http://192.168.255.105:9093/cart/v2/api-docs"
+  "cnki": "http://192.168.255.106:9090/cnki/v2/api-docs"
+  "enterprise": "http://192.168.255.106:8088/enterprise/v2/api-docs"
+  "finance": "http://192.168.255.106:8087/finance/v2/api-docs"
+
+whitelist: ["config/", "/ssfError", "download/", "wash", "/es/", "plugininfo/", "chat/", "documentGeneration/",
+             "docautobuilding/", "provider/", "dataTransfer/", "permission/atom", "permission/history",
+             "permission/engine",
+             "permission/syndate", "sr/", "dataWash/"]

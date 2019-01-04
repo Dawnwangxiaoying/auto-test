@@ -1,0 +1,650 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1542344111551" stop="1542344114728">
+  <name>interface.case.test_interface</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1542344111551" status="passed" stop="1542344112962">
+      <description>获取微信二维码</description>
+      <name>TestClass.test_a[case0]</name>
+      <attachments>
+        <attachment source="fe6a50ac-1b3f-448c-acee-ade5506b6380-attachment.txt" title="Captured stdout call" type="text/plain"/>
+        <attachment source="7b5c9e71-8476-4664-9da7-01f415c010e4-attachment.txt" title="Captured stderr call" type="text/plain"/>
+        <attachment source="45d22c99-b0da-4055-988f-12da8574bfb6-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="接口smoke"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2034-MainThread"/>
+        <label name="host" value="yang"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1542344111559" status="passed" stop="1542344111559">
+          <name>发送请求</name>
+          <title>发送请求</title>
+          <attachments>
+            <attachment source="ae29c0da-d585-4487-894b-6006ee2417fd-attachment.txt" title="请求方式" type="text/plain"/>
+            <attachment source="f3ff0e3c-997c-4e70-8975-1625ea219a63-attachment.txt" title="url" type="text/plain"/>
+            <attachment source="3d0c2612-e462-4114-9bb5-7d17912207c7-attachment.txt" title="data" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344112961" status="passed" stop="1542344112961">
+          <name>存储数据</name>
+          <title>存储数据</title>
+          <attachments>
+            <attachment source="18d6a680-6233-4051-9629-e6b1ec363320-attachment.txt" title="storage" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344112961" status="passed" stop="1542344112961">
+          <name>返回校验</name>
+          <title>返回校验</title>
+          <attachments>
+            <attachment source="74f0a41f-33f3-4468-802c-c88f6410a8ce-attachment.txt" title="期望结果" type="text/plain"/>
+            <attachment source="7639a100-9649-443a-9e00-d8894a0cc53a-attachment.txt" title="实际结果" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1542344112981" status="passed" stop="1542344113147">
+      <description>个人信息-律所ID</description>
+      <name>TestClass.test_a[case1]</name>
+      <attachments>
+        <attachment source="6cc97886-ab28-4c25-9adb-5c6c0b88488d-attachment.txt" title="Captured stdout call" type="text/plain"/>
+        <attachment source="07596ea4-3302-483c-bc3f-ee22ffdc3cac-attachment.txt" title="Captured stderr call" type="text/plain"/>
+        <attachment source="f2b24fee-4500-4cfc-89cb-d07b135407aa-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="接口smoke"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2034-MainThread"/>
+        <label name="host" value="yang"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1542344112983" status="passed" stop="1542344112983">
+          <name>发送请求</name>
+          <title>发送请求</title>
+          <attachments>
+            <attachment source="0083f03b-aafc-403d-ad5e-8a709268c66f-attachment.txt" title="请求方式" type="text/plain"/>
+            <attachment source="7790d92c-efa3-42ac-8eaf-b9196ce5ed97-attachment.txt" title="url" type="text/plain"/>
+            <attachment source="70d9c245-de5e-4fe9-b778-1d554d27c7ca-attachment.txt" title="data" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344113146" status="passed" stop="1542344113146">
+          <name>存储数据</name>
+          <title>存储数据</title>
+          <attachments>
+            <attachment source="c6262858-3fde-47f9-8d7d-50924939cff8-attachment.txt" title="storage" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344113146" status="passed" stop="1542344113146">
+          <name>返回校验</name>
+          <title>返回校验</title>
+          <attachments>
+            <attachment source="b61fc4c2-cd95-462a-8893-f0f4c7c42063-attachment.txt" title="期望结果" type="text/plain"/>
+            <attachment source="0cd98003-7208-4295-848e-b9f7fb2b5e11-attachment.txt" title="实际结果" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1542344113159" status="passed" stop="1542344113275">
+      <description>个人信息-用户ID</description>
+      <name>TestClass.test_a[case2]</name>
+      <attachments>
+        <attachment source="e81acce3-1db4-47e7-a2ac-0a8f6d78b136-attachment.txt" title="Captured stdout call" type="text/plain"/>
+        <attachment source="19086862-535a-4e37-8ea8-1ba779c49243-attachment.txt" title="Captured stderr call" type="text/plain"/>
+        <attachment source="ded71806-3174-4e9e-98cd-e093a754bcc4-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="接口smoke"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2034-MainThread"/>
+        <label name="host" value="yang"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1542344113161" status="passed" stop="1542344113161">
+          <name>发送请求</name>
+          <title>发送请求</title>
+          <attachments>
+            <attachment source="523c421e-89f6-4738-89ea-edcba93aab45-attachment.txt" title="请求方式" type="text/plain"/>
+            <attachment source="10b7c73a-e4cd-4aee-bc09-0e4d32eeb286-attachment.txt" title="url" type="text/plain"/>
+            <attachment source="7daae4d2-12b4-4911-9e58-bbff424789f3-attachment.txt" title="data" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344113274" status="passed" stop="1542344113274">
+          <name>存储数据</name>
+          <title>存储数据</title>
+          <attachments>
+            <attachment source="47d89923-03f8-4711-88c2-14a535353472-attachment.txt" title="storage" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344113274" status="passed" stop="1542344113274">
+          <name>返回校验</name>
+          <title>返回校验</title>
+          <attachments>
+            <attachment source="043c25f4-abf9-4412-9050-d90f29ebee46-attachment.txt" title="期望结果" type="text/plain"/>
+            <attachment source="0ab035c3-1194-40e6-9691-cf0c80559a92-attachment.txt" title="实际结果" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1542344113279" status="passed" stop="1542344113378">
+      <description>个人信息-用户名</description>
+      <name>TestClass.test_a[case3]</name>
+      <attachments>
+        <attachment source="dbbac215-cee4-4004-8efb-4b505cfc004b-attachment.txt" title="Captured stdout call" type="text/plain"/>
+        <attachment source="09e1076e-c1e0-43be-b731-594c4e8e11d3-attachment.txt" title="Captured stderr call" type="text/plain"/>
+        <attachment source="b1ad3480-1966-4de3-9f2d-a7452bf30251-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="接口smoke"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2034-MainThread"/>
+        <label name="host" value="yang"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1542344113282" status="passed" stop="1542344113282">
+          <name>发送请求</name>
+          <title>发送请求</title>
+          <attachments>
+            <attachment source="f6708fe2-8d00-4df2-966c-29686e9bbe44-attachment.txt" title="请求方式" type="text/plain"/>
+            <attachment source="d4d83c0d-8f7f-4c34-9505-34e3dbd78200-attachment.txt" title="url" type="text/plain"/>
+            <attachment source="9f7e4574-f410-4543-8f85-58cb9344dd7d-attachment.txt" title="data" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344113375" status="passed" stop="1542344113377">
+          <name>存储数据</name>
+          <title>存储数据</title>
+          <attachments>
+            <attachment source="d5a39165-7523-43d2-ae36-58a9ed4c1b48-attachment.txt" title="storage" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344113377" status="passed" stop="1542344113377">
+          <name>返回校验</name>
+          <title>返回校验</title>
+          <attachments>
+            <attachment source="57a80106-13ef-4e43-af22-d57db4fe65fe-attachment.txt" title="期望结果" type="text/plain"/>
+            <attachment source="b0f22f68-4d2f-4378-ba2e-9ff307e9e7bc-attachment.txt" title="实际结果" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1542344113390" status="passed" stop="1542344113524">
+      <description>获取默认资料库</description>
+      <name>TestClass.test_a[case4]</name>
+      <attachments>
+        <attachment source="f1f1c2c0-fb8a-42cb-bd97-53fbdbfb0f89-attachment.txt" title="Captured stdout call" type="text/plain"/>
+        <attachment source="52f2b96a-8b94-4f6b-9384-32e69b44818c-attachment.txt" title="Captured stderr call" type="text/plain"/>
+        <attachment source="85e3e885-8c22-4151-ac50-00fcfd6a74e4-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="接口smoke"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2034-MainThread"/>
+        <label name="host" value="yang"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1542344113402" status="passed" stop="1542344113402">
+          <name>发送请求</name>
+          <title>发送请求</title>
+          <attachments>
+            <attachment source="2195a266-98f2-43db-972a-7d50d4dbd4ad-attachment.txt" title="请求方式" type="text/plain"/>
+            <attachment source="d6bfc312-9dd5-4883-b288-df2233615c0c-attachment.txt" title="url" type="text/plain"/>
+            <attachment source="3af6e167-98d8-40cf-92d8-425ce576c46b-attachment.txt" title="data" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344113524" status="passed" stop="1542344113524">
+          <name>存储数据</name>
+          <title>存储数据</title>
+          <attachments>
+            <attachment source="807dfb30-7baa-43de-88a3-ef3943cd3038-attachment.txt" title="storage" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344113524" status="passed" stop="1542344113524">
+          <name>返回校验</name>
+          <title>返回校验</title>
+          <attachments>
+            <attachment source="b6f5c0f0-747e-472d-a368-5fac5b902b41-attachment.txt" title="期望结果" type="text/plain"/>
+            <attachment source="f47f9efc-9d94-4b42-9a2b-0b11dc7fdded-attachment.txt" title="实际结果" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1542344113545" status="passed" stop="1542344113694">
+      <description>查询律所管理员</description>
+      <name>TestClass.test_a[case5]</name>
+      <attachments>
+        <attachment source="39c24887-fdb6-46b4-bffe-13ac9ff82e2a-attachment.txt" title="Captured stdout call" type="text/plain"/>
+        <attachment source="26b8d2c9-a920-4f69-90c8-4bba662d767b-attachment.txt" title="Captured stderr call" type="text/plain"/>
+        <attachment source="891dfb9c-7184-4d4c-bfb7-ae9b2f41d2f8-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="接口smoke"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2034-MainThread"/>
+        <label name="host" value="yang"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1542344113548" status="passed" stop="1542344113548">
+          <name>发送请求</name>
+          <title>发送请求</title>
+          <attachments>
+            <attachment source="4fa7037a-b79c-48fa-b2a7-c1eecf96867b-attachment.txt" title="请求方式" type="text/plain"/>
+            <attachment source="254f827a-ffcf-41e8-98a7-87e8306c4239-attachment.txt" title="url" type="text/plain"/>
+            <attachment source="c4c34d09-c3e0-4113-9678-276dc678869a-attachment.txt" title="data" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344113693" status="passed" stop="1542344113693">
+          <name>存储数据</name>
+          <title>存储数据</title>
+          <attachments>
+            <attachment source="70dc86f9-0379-4dc1-bbfd-97c3b25f8391-attachment.txt" title="storage" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344113693" status="passed" stop="1542344113693">
+          <name>返回校验</name>
+          <title>返回校验</title>
+          <attachments>
+            <attachment source="165b4a20-d02a-4700-b2c9-2bc2494aec85-attachment.txt" title="期望结果" type="text/plain"/>
+            <attachment source="3c1bcfd6-0613-4a2f-a63f-229cc069022e-attachment.txt" title="实际结果" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1542344113697" status="passed" stop="1542344113835">
+      <description>获取文档token</description>
+      <name>TestClass.test_a[case6]</name>
+      <attachments>
+        <attachment source="fc1e125a-b42c-47b1-9abc-34e37603d849-attachment.txt" title="Captured stdout call" type="text/plain"/>
+        <attachment source="46a5b8c4-7a6b-4e91-bbc1-850bfab36b84-attachment.txt" title="Captured stderr call" type="text/plain"/>
+        <attachment source="397c23cb-707d-4575-a450-116d8526bba9-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="接口smoke"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2034-MainThread"/>
+        <label name="host" value="yang"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1542344113699" status="passed" stop="1542344113699">
+          <name>发送请求</name>
+          <title>发送请求</title>
+          <attachments>
+            <attachment source="bee259fa-cf38-4647-842d-b0227c32b80a-attachment.txt" title="请求方式" type="text/plain"/>
+            <attachment source="b4f38b89-df77-493b-aeee-220113f70d79-attachment.txt" title="url" type="text/plain"/>
+            <attachment source="ab4f2f71-1fcf-44f8-aa2f-f578d050ae1e-attachment.txt" title="data" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344113834" status="passed" stop="1542344113834">
+          <name>存储数据</name>
+          <title>存储数据</title>
+          <attachments>
+            <attachment source="a707ef51-28e9-4fdf-a9a2-d134c9d4d33a-attachment.txt" title="storage" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344113834" status="passed" stop="1542344113834">
+          <name>返回校验</name>
+          <title>返回校验</title>
+          <attachments>
+            <attachment source="76b6e78f-2a3b-47a6-aed7-3fe401467f0e-attachment.txt" title="期望结果" type="text/plain"/>
+            <attachment source="bc0526a6-33c1-4838-adbb-6447721dda64-attachment.txt" title="实际结果" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1542344113839" status="passed" stop="1542344113939">
+      <description>查询个人信息编辑</description>
+      <name>TestClass.test_a[case7]</name>
+      <attachments>
+        <attachment source="31f05e44-1d33-4721-ac20-8c309be9740b-attachment.txt" title="Captured stdout call" type="text/plain"/>
+        <attachment source="a595a3cc-6808-4489-a6ea-67f249c7f85d-attachment.txt" title="Captured stderr call" type="text/plain"/>
+        <attachment source="242d1516-5cb5-4ee5-bcfd-15f32b9c94a6-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="接口smoke"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2034-MainThread"/>
+        <label name="host" value="yang"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1542344113843" status="passed" stop="1542344113843">
+          <name>发送请求</name>
+          <title>发送请求</title>
+          <attachments>
+            <attachment source="f4258e68-9b98-4124-9939-2e9ccbf24af6-attachment.txt" title="请求方式" type="text/plain"/>
+            <attachment source="6840cfa7-db5c-44e5-9e8c-d2ab45277bc6-attachment.txt" title="url" type="text/plain"/>
+            <attachment source="4e636a32-0482-4114-a754-5ceabb4a0bdf-attachment.txt" title="data" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344113939" status="passed" stop="1542344113939">
+          <name>存储数据</name>
+          <title>存储数据</title>
+          <attachments>
+            <attachment source="5782c431-ea7d-4bc3-b550-04c4222a16be-attachment.txt" title="storage" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344113939" status="passed" stop="1542344113939">
+          <name>返回校验</name>
+          <title>返回校验</title>
+          <attachments>
+            <attachment source="513b1f50-7e55-4187-b537-e234dca91d2b-attachment.txt" title="期望结果" type="text/plain"/>
+            <attachment source="d71412cd-2c0d-40aa-82b9-a3202ede48fa-attachment.txt" title="实际结果" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1542344113944" status="passed" stop="1542344114068">
+      <description>格言</description>
+      <name>TestClass.test_a[case8]</name>
+      <attachments>
+        <attachment source="662ef8c7-115f-492c-be20-095e10ada4da-attachment.txt" title="Captured stdout call" type="text/plain"/>
+        <attachment source="d3eb3d72-5c40-47c5-ba82-b85afaa97aee-attachment.txt" title="Captured stderr call" type="text/plain"/>
+        <attachment source="4543c445-3035-4777-888f-97fcedc1d7fe-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="接口smoke"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2034-MainThread"/>
+        <label name="host" value="yang"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1542344113950" status="passed" stop="1542344113950">
+          <name>发送请求</name>
+          <title>发送请求</title>
+          <attachments>
+            <attachment source="74888725-9f20-42a6-a11c-7a94203add7b-attachment.txt" title="请求方式" type="text/plain"/>
+            <attachment source="8b4502a2-c323-422e-be6f-63203a0669cd-attachment.txt" title="url" type="text/plain"/>
+            <attachment source="08a5897d-9108-4f8e-9b50-f14fe1ea9561-attachment.txt" title="data" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344114067" status="passed" stop="1542344114067">
+          <name>存储数据</name>
+          <title>存储数据</title>
+          <attachments>
+            <attachment source="257be174-6025-46a8-b0b1-a98ed07fe8d1-attachment.txt" title="storage" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344114067" status="passed" stop="1542344114067">
+          <name>返回校验</name>
+          <title>返回校验</title>
+          <attachments>
+            <attachment source="9874f8ef-eb97-4e5d-95e9-f5ca9cdfc8d0-attachment.txt" title="期望结果" type="text/plain"/>
+            <attachment source="ab4d2b57-9484-4871-be16-533e6f10052f-attachment.txt" title="实际结果" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1542344114073" status="passed" stop="1542344114211">
+      <description>格言</description>
+      <name>TestClass.test_a[case9]</name>
+      <attachments>
+        <attachment source="1aca3a81-7065-4a84-90a5-4a61d111d4d5-attachment.txt" title="Captured stdout call" type="text/plain"/>
+        <attachment source="c168142d-7947-4165-a4d8-7cdb22827f61-attachment.txt" title="Captured stderr call" type="text/plain"/>
+        <attachment source="6373f090-5ea0-49ef-8fc9-6781405f7dd7-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="接口smoke"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2034-MainThread"/>
+        <label name="host" value="yang"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1542344114076" status="passed" stop="1542344114076">
+          <name>发送请求</name>
+          <title>发送请求</title>
+          <attachments>
+            <attachment source="8062a726-16f3-48e4-87c2-7e5f6429fa21-attachment.txt" title="请求方式" type="text/plain"/>
+            <attachment source="2da62195-8171-4385-acbb-f57977854113-attachment.txt" title="url" type="text/plain"/>
+            <attachment source="ba048b62-4640-420d-80dc-13fc5626d383-attachment.txt" title="data" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344114211" status="passed" stop="1542344114211">
+          <name>存储数据</name>
+          <title>存储数据</title>
+          <attachments>
+            <attachment source="3f56fd21-76a5-4d38-b450-c3576389730b-attachment.txt" title="storage" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344114211" status="passed" stop="1542344114211">
+          <name>返回校验</name>
+          <title>返回校验</title>
+          <attachments>
+            <attachment source="03b8d123-ac27-435c-89dd-72740a315964-attachment.txt" title="期望结果" type="text/plain"/>
+            <attachment source="fde0aa97-3f87-48d0-8102-da59552122ad-attachment.txt" title="实际结果" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1542344114216" status="passed" stop="1542344114318">
+      <description>律所信息</description>
+      <name>TestClass.test_a[case10]</name>
+      <attachments>
+        <attachment source="6e7e8595-cd32-47a6-ad78-9972379d2c21-attachment.txt" title="Captured stdout call" type="text/plain"/>
+        <attachment source="dd4596b5-e04d-4f43-9af6-260f929beb8c-attachment.txt" title="Captured stderr call" type="text/plain"/>
+        <attachment source="1d2513b2-bdd2-4833-b57d-2f9acbbd3e71-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="接口smoke"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2034-MainThread"/>
+        <label name="host" value="yang"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1542344114217" status="passed" stop="1542344114218">
+          <name>发送请求</name>
+          <title>发送请求</title>
+          <attachments>
+            <attachment source="9017776e-db3a-44b0-9d58-6cc24984d60b-attachment.txt" title="请求方式" type="text/plain"/>
+            <attachment source="a42527d2-6568-41bb-a199-a0670820ac59-attachment.txt" title="url" type="text/plain"/>
+            <attachment source="f6709485-3a0c-4d80-ac2c-41905ebbcdf7-attachment.txt" title="data" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344114318" status="passed" stop="1542344114318">
+          <name>存储数据</name>
+          <title>存储数据</title>
+          <attachments>
+            <attachment source="f7951cf7-20bf-411e-aa0d-f0f0fd98af04-attachment.txt" title="storage" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344114318" status="passed" stop="1542344114318">
+          <name>返回校验</name>
+          <title>返回校验</title>
+          <attachments>
+            <attachment source="682f0b24-5ed0-4b33-ac4f-f3ce5230bc25-attachment.txt" title="期望结果" type="text/plain"/>
+            <attachment source="badd8502-f510-49b0-8d59-92c919d2ec16-attachment.txt" title="实际结果" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1542344114329" status="passed" stop="1542344114415">
+      <description>是否可以发通知</description>
+      <name>TestClass.test_a[case11]</name>
+      <attachments>
+        <attachment source="8eba29a7-d821-4da4-bc0d-723aa0b391ea-attachment.txt" title="Captured stdout call" type="text/plain"/>
+        <attachment source="a59b1708-cfd6-42a6-bf66-8fbf26d56d2f-attachment.txt" title="Captured stderr call" type="text/plain"/>
+        <attachment source="9ee42209-f3e9-4ae3-948b-d95c4fd3cf4c-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="接口smoke"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2034-MainThread"/>
+        <label name="host" value="yang"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1542344114332" status="passed" stop="1542344114332">
+          <name>发送请求</name>
+          <title>发送请求</title>
+          <attachments>
+            <attachment source="bf7d5be7-7eec-47ae-aa78-758c13eb477d-attachment.txt" title="请求方式" type="text/plain"/>
+            <attachment source="7b4f8702-4a74-43ea-9e79-105af731d90a-attachment.txt" title="url" type="text/plain"/>
+            <attachment source="6b1e7170-bfa0-451c-8752-5b9ae0f148b1-attachment.txt" title="data" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344114415" status="passed" stop="1542344114415">
+          <name>存储数据</name>
+          <title>存储数据</title>
+          <attachments>
+            <attachment source="ceee5c2e-62e1-4605-ab7b-d7de6952a798-attachment.txt" title="storage" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344114415" status="passed" stop="1542344114415">
+          <name>返回校验</name>
+          <title>返回校验</title>
+          <attachments>
+            <attachment source="cb03976f-dd99-44d7-9dc9-7a94f2f2e965-attachment.txt" title="期望结果" type="text/plain"/>
+            <attachment source="4d0ae653-1a3d-4ba4-aa74-c1c633e11bd8-attachment.txt" title="实际结果" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1542344114425" status="passed" stop="1542344114560">
+      <description>默认工作类别</description>
+      <name>TestClass.test_a[case12]</name>
+      <attachments>
+        <attachment source="5bc2b301-de1a-4b0c-a0a7-5caeb7c4ea3c-attachment.txt" title="Captured stdout call" type="text/plain"/>
+        <attachment source="4acf9f34-9c44-435c-8165-201fca2faeb1-attachment.txt" title="Captured stderr call" type="text/plain"/>
+        <attachment source="8b0daad6-e153-4603-b906-6edac153330f-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="接口smoke"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2034-MainThread"/>
+        <label name="host" value="yang"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1542344114432" status="passed" stop="1542344114432">
+          <name>发送请求</name>
+          <title>发送请求</title>
+          <attachments>
+            <attachment source="5dac67e6-6d80-470d-b56c-abc15a3fc26b-attachment.txt" title="请求方式" type="text/plain"/>
+            <attachment source="a6f4de15-4599-4bbb-90e6-86e0bbdfe870-attachment.txt" title="url" type="text/plain"/>
+            <attachment source="ddf5553f-f7fa-4296-95ee-c8049a36d016-attachment.txt" title="data" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344114557" status="passed" stop="1542344114557">
+          <name>存储数据</name>
+          <title>存储数据</title>
+          <attachments>
+            <attachment source="0599ffae-8520-4147-b0a2-50ce7453eb95-attachment.txt" title="storage" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344114557" status="passed" stop="1542344114557">
+          <name>返回校验</name>
+          <title>返回校验</title>
+          <attachments>
+            <attachment source="74ee1bcf-2737-445a-ad80-1fd8995afbdc-attachment.txt" title="期望结果" type="text/plain"/>
+            <attachment source="c437728f-9a92-4d95-9d9b-2f0a80e736c6-attachment.txt" title="实际结果" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1542344114569" status="passed" stop="1542344114728">
+      <description>是否正在计时</description>
+      <name>TestClass.test_a[case13]</name>
+      <attachments>
+        <attachment source="6b877ee5-95ed-40fa-bd00-9ec312a0eeab-attachment.txt" title="Captured stdout call" type="text/plain"/>
+        <attachment source="d888fe04-c6f2-4e64-ab35-1ce3b1461e36-attachment.txt" title="Captured stderr call" type="text/plain"/>
+        <attachment source="430f77a5-e6cb-4394-829c-12c192006b77-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="接口smoke"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2034-MainThread"/>
+        <label name="host" value="yang"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1542344114575" status="passed" stop="1542344114575">
+          <name>发送请求</name>
+          <title>发送请求</title>
+          <attachments>
+            <attachment source="e048e78b-48a0-4e28-b74f-6e2e0b1bcd9d-attachment.txt" title="请求方式" type="text/plain"/>
+            <attachment source="8aa51b49-d002-4e06-9d8f-ac2f2175cd81-attachment.txt" title="url" type="text/plain"/>
+            <attachment source="1a6ddbe3-86dd-45af-9428-a18c0c086628-attachment.txt" title="data" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344114726" status="passed" stop="1542344114727">
+          <name>存储数据</name>
+          <title>存储数据</title>
+          <attachments>
+            <attachment source="fed46024-905b-408a-bb97-44439f8d0184-attachment.txt" title="storage" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1542344114727" status="passed" stop="1542344114727">
+          <name>返回校验</name>
+          <title>返回校验</title>
+          <attachments>
+            <attachment source="6c1b87f5-a8a3-4ff5-84d1-c80abea6327d-attachment.txt" title="期望结果" type="text/plain"/>
+            <attachment source="e4dbc7c7-6777-4a44-8355-9652ba9617b9-attachment.txt" title="实际结果" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

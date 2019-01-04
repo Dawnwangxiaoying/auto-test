@@ -1,0 +1,2 @@
+https://testadminschool.icourt.cc/live/api/v1/file/upload
+{}

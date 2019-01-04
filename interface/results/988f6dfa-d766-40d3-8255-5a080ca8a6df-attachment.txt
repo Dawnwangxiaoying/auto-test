@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/Users/icourt/PycharmProjects/automation/interface/common/baseCase.py", line 88, in getData
+    newData = newData + data[i] + str(eval("storage[data[" + str(i + 1) + "]]"))
+  File "<string>", line 1, in <module>
+KeyError: 'roomid'
+2018-11-19 17:25:31 [INFO]::Debug: ['{"attach":"{\\"type\\":\\"gift\\",\\"id\\":\\"i011\\"}","roomid":"', 'roomid', '","msgType":100,"ext":"{\\"role\\":0}","consumeType":1,"consumeValue":10}'] 获取data错误
+        异常信息为：None

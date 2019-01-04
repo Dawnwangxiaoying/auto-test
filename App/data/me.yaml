@@ -1,0 +1,13 @@
+我的:
+  by: id
+  path: tab_mine_ctv
+  action: click
+头像:
+  by: id
+  path: photo_image
+  action: click
+  switch_context: True
+姓名:
+  by: xpath
+  path: //*[@id='app']/div/div[2]/a[2]/div/div[2]
+  action: click

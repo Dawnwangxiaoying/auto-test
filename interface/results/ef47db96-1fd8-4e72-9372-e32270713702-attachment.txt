@@ -1,0 +1,3 @@
+dict_keys(['today', 'token', 'officeid', 'userid', 'now', 'randomint', 'pageIndex', 'pageSize', 'effectRepeats', 'msgId', 'cover', 'thumbnail', 'courseId'])
+https://testschool.icourt.cc/live/api/v1/course/mobile/detail?courseId=0dfba9e2ebdd11e8a6ac7cd30aeb153e
+{}
