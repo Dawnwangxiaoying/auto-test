@@ -1,2 +1,0 @@
-https://testschool.icourt.cc/live/api/v1/im/chatroom/savemsg
-{"attach":"yang1","roomid":"58765615","msgType":1,"ext":"{\"role\":2}","msgId":"d4004694eb3911e8af904600e9222301"}
